@@ -1,0 +1,47 @@
+# Nmap 7.99 scan initiated Sun Apr 26 18:27:20 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -sV -oN scan.txt 10.101.245.94
+Nmap scan report for 10.101.245.94
+Host is up (0.00023s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql         MySQL (unauthorized)
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+5432/tcp open  postgresql    PostgreSQL DB
+5500/tcp open  hotline?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5500-TCP:V=7.99%I=7%D=4/26%Time=69EE0BBD%P=i686-pc-windows-windows%
+SF:r(GetRequest,5ADB,"HTTP/1\.1\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\
+SF:nCache-Control:\x20public,\x20max-age=0\r\nLast-Modified:\x20Sun,\x2026
+SF:\x20Apr\x202026\x2008:39:34\x20GMT\r\nETag:\x20W/\"59df-19dc8f1ac35\"\r
+SF:\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nContent-Length:\x2024
+SF:500\r\nDate:\x20Sun,\x2026\x20Apr\x202026\x2012:57:32\x20GMT\r\nConnect
+SF:ion:\x20close\r\n\r\n<!DOCTYPE\x20html>\r\n<html\x20lang=\"en\">\r\n<he
+SF:ad>\r\n\x20\x20\x20\x20<meta\x20charset=\"UTF-8\">\r\n\x20\x20\x20\x20<
+SF:meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-s
+SF:cale=1\.0\">\r\n\x20\x20\x20\x20<title>Cloud\x20File\x20System\x20\|\x2
+SF:0Firebase\x20Implementation</title>\r\n\x20\x20\x20\x20<style>\r\n\x20\
+SF:x20\x20\x20\x20\x20\x20\x20:root\x20{\r\n\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20--primary:\x20#FFCA28;\r\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20--primary-dark:\x20#FFA000;\r\n\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20--secondary:\x20#2C3E50;\r\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20--bg:\x20#F4F6F8;\r\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20--surface:\x20#FFFFFF;\r\n\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20--text-main:\x20#333333;\r\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20--text-light:\x20#777777;\r\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20--danger:\x20#E74C3C;\r\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20--success:\x20#2ECC71;\
+SF:r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20--shadow:\x200\x204p
+SF:x\x2012px\x20rgba\(0,0,0,0\.08\);\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20--radius:\x2012px;\r\n\x20\x20\x20\x20\x20\x20\x20")%r(HT
+SF:TPOptions,79,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20GET,\x20HEAD,\x20OPTI
+SF:ONS\r\nContent-Length:\x200\r\nDate:\x20Sun,\x2026\x20Apr\x202026\x2012
+SF::57:33\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RTSPRequest,79,"HTTP/
+SF:1\.1\x20200\x20OK\r\nAllow:\x20GET,\x20HEAD,\x20OPTIONS\r\nContent-Leng
+SF:th:\x200\r\nDate:\x20Sun,\x2026\x20Apr\x202026\x2012:57:33\x20GMT\r\nCo
+SF:nnection:\x20close\r\n\r\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 26 18:27:33 2026 -- 1 IP address (1 host up) scanned in 13.47 seconds
