@@ -5,7 +5,7 @@ This project uses Nmap and Python to analyze open ports and identify potential s
 ## Features
 - Extracts open ports and services from Nmap output
 - Classifies services into risk levels (Low, Medium, High)
-- Detects exposed databases and file-sharing services
+- Detects exposed databases and file-sharing services.
 - Generates an overall system risk score
 
 ## Technologies Used
